@@ -123,7 +123,7 @@ if(click % 2 == 0 && cardsIdsArr[click-2] !== cardsIdsArr[click-1]) {
     } else if (click % 2 == 0  && cardsIdsArr[click-2] == cardsIdsArr[click-1]){
         console.log(`you guessed right!`)
     } 
-    let cardsLeft = iterator2.some(a => a.src === "http://127.0.0.1:5500/cardSkin.jpg");
+    let cardsLeft = iterator2.some(a => a.src === "https://flip-card-memory-game.netlify.app/cardSkin.jpg");
     if(!cardsLeft){
     winner.innerText = `Congrats! You won! Number of attempts: ${click/2}`;
     window.removeEventListener('click', cardClick);
