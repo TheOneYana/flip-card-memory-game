@@ -78,7 +78,7 @@ playButton.addEventListener('click', function letsPlay(){
         iterator2[i].src = b.src;}
     setTimeout(() => {
     for (let i = 0; i<iterator2.length; i++) {
-        iterator2[i].src = './cardSkin.jpg';
+        iterator2[i].src = './cardSkin copy.jpg';
     }}, 2000)
     playButton.style.display = 'none';
     openTwoCards();
@@ -111,19 +111,19 @@ if(click % 2 == 0 && cardsIdsArr[click-2] !== cardsIdsArr[click-1]) {
     if(cardClass.className == cardNum){
     // if pictures don't match, they will be turned over after a second.
     this.setTimeout(() => {
-        cardNumsArr[click-2].src = './cardSkin.jpg'
-        cardNumsArr[click-1].src = './cardSkin.jpg'
+        cardNumsArr[click-2].src = './cardSkin copy.jpg'
+        cardNumsArr[click-1].src = './cardSkin copy.jpg'
     }
     ,"350");
     }
     // if a pair of two cards don not have matching pics, turn the cards over
-    } else if (click % 2 == 0 && cardNumsArr[click-2] === cardNumsArr[click-1] && event.target.src !== './cardSkin.jpg'){
-        event.target.src = './cardSkin.jpg'
+    } else if (click % 2 == 0 && cardNumsArr[click-2] === cardNumsArr[click-1] && event.target.src !== './cardSkin copy.jpg'){
+        event.target.src = './cardSkin copy.jpg'
     // if a pair of two cards have matching pics, keep showing them.    
     } else if (click % 2 == 0  && cardsIdsArr[click-2] == cardsIdsArr[click-1]){
         console.log(`you guessed right!`)
     } 
-    let cardsLeft = iterator2.some(a => a.src === "https://flip-card-memory-game.netlify.app/cardSkin.jpg");
+    let cardsLeft = iterator2.some(a => a.src === "https://flip-card-memory-game.netlify.app/cardSkin copy.jpg");
     if(!cardsLeft){
     winner.innerText = `Congrats! You won! Number of attempts: ${click/2}`;
     window.removeEventListener('click', cardClick);

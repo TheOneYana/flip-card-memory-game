@@ -1,3 +1,11 @@
+:root {
+  --background_taupe: rgb(186, 161, 132);
+  background-color: rgb(186, 161, 132);
+  --hover: rgb(245, 215, 179);
+  --dark-beige: rgb(139, 106, 75);
+  --font: rgb(36, 20, 1);
+}
+
 body, html {
   height: 100%;
   margin: 0;
@@ -9,7 +17,7 @@ body, html {
 }
 
 .bg-image {
-  background-image: url("fabric.jpg");
+  background-image: var(--background_taupe);
   
   /* Add the blur effect */
   /* filter: blur(2px);
@@ -20,7 +28,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 5px solid rgb(111,41,97);
+  border: 5px solid rgb(111, 65, 41);
 
   
 }
@@ -49,13 +57,13 @@ img {
 }
 
 .grid-item {
-  border: 1px solid rgb(183, 117, 170);
+  border: 1px solid rgb(89, 75, 33);
   display: flex;
   justify-content: center;
   align-items: center;
   width: 320px;
   height: 252px;
-  box-shadow: 5px 5px 5px rgb(160, 154, 162);
+  box-shadow: 5px 5px 5px rgb(77, 51, 31); 
   }
 
 .is-flipped{
@@ -70,10 +78,10 @@ h3{
   margin-top: 0px;
   }
 button{
-  background-color: rgb(230, 224, 235);
-  box-shadow: 0px 0px 11px rgb(195, 133, 189);
+  background-color: rgb(235, 234, 233);
+  box-shadow: 0px 0px 2px rgb(43, 35, 29);
   margin-top: 15px;
-  border: 4px rgb(143, 53, 143) solid;
+  border: 2px rgb(143, 85, 53) solid;
   border-radius: 8px;
   font-size: 2em;
   translate:100%;
@@ -121,7 +129,6 @@ button{
 
 @media only screen and (max-width: 600px) {
   .bg-image {
-    background-image: url("fabric.jpg");
     /* Add the blur effect */
     /* filter: blur(2px);
     -webkit-filter: blur(2px); */
@@ -153,13 +160,12 @@ button{
     }
   
 .grid-item {
-  border: 1px solid rgb(183, 117, 170);
+
   display: flex;
   justify-content: center;
   align-items: center;
   width: 140px;
   height: auto;
-  box-shadow: 5px 5px 5px rgb(160, 154, 162);
   object-fit: cover;
   }
   img {
@@ -168,10 +174,10 @@ button{
     object-fit: cover;
   }
   button{
-    background-color: rgb(230, 224, 235);
-    box-shadow: 0px 0px 11px rgb(195, 133, 189);
+
+
     margin-top: 15px;
-    border: 4px rgb(143, 53, 143) solid;
+
     border-radius: 8px;
     font-size: 1.4em;
     translate:65%;
