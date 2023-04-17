@@ -1,15 +1,15 @@
 :root {
   --background_taupe: rgb(186, 161, 132);
   background-color: rgb(186, 161, 132);
-  --hover: rgb(245, 215, 179);
+  --beige_warm: rgb(197, 148, 138);
   --dark-beige: rgb(139, 106, 75);
   --font: rgb(36, 20, 1);
 }
-
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
 body, html {
   height: 100%;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 * {
@@ -17,7 +17,7 @@ body, html {
 }
 
 .bg-image {
-  background-image: var(--background_taupe);
+  background-color: var(--beige_warm);
   
   /* Add the blur effect */
   /* filter: blur(2px);
@@ -78,15 +78,19 @@ h3{
   margin-top: 0px;
   }
 button{
+  font-family: 'DynaPuff', cursive;
   background-color: rgb(235, 234, 233);
   box-shadow: 0px 0px 2px rgb(43, 35, 29);
   margin-top: 15px;
   border: 2px rgb(143, 85, 53) solid;
   border-radius: 8px;
-  font-size: 2em;
-  translate:100%;
+  font-size: 2.3em;
+  font-weight: bolder;
+  translate:70%;
   animation: rainbow 2.5s linear;
 	animation-iteration-count: infinite;
+  width: 250px;
+  padding: 5px;
   }
 @keyframes rainbow{
   100%,0%{
