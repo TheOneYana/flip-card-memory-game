@@ -189,7 +189,7 @@ color: var(--font);
   .main {
     padding:0px;
     width: auto;
-    height: 100vh;
+    height: 100%;
     grid-template-columns: repeat(2, 0fr);
     grid-template-rows: repeat(8, 0fr);
     gap: 2px 2px;
@@ -239,7 +239,7 @@ color: var(--font);
   .main {
     padding:0px;
     width: auto;
-    height: 100vh;
+    height: 100%;
     grid-template-columns: repeat(2, 0fr);
     grid-template-rows: repeat(8, 0fr);
     gap: 2px 2px;
@@ -291,7 +291,7 @@ color: var(--font);
     .main {
       padding:0px;
       width: auto;
-      height: 100vh;
+      height: 100%;
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: repeat(5,1fr);
       gap: 2px 2px;
@@ -343,7 +343,7 @@ color: var(--font);
     .main {
       padding:0px;
       width: auto;
-      height: 100vh;
+      height: 100%;
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: repeat(5,1fr);
       gap: 2px 2px;
