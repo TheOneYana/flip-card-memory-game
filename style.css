@@ -72,6 +72,8 @@ h3{
   font-size: 2em;
   translate:150%;
   margin-top: 0px;
+  text-shadow: 2px 2px #482902;
+  
   }
 span{
   background: none;
@@ -86,6 +88,8 @@ span{
   height: 39px;
   z-index: 5;
   background-color: none;
+  font-size: 1.2em;
+  text-shadow: 0.5px 0.5px #482902;
 }
 .back:link {
   color: black;
