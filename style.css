@@ -183,7 +183,7 @@ color: var(--font);
   .bg-image {
     display: flex;
     justify-content: center;
-    height: 120%;
+    height: 130%;
   }
   .main {
     padding:0px;
@@ -224,7 +224,7 @@ color: var(--font);
     }
   
   .back {
-    top: 112%;
+    top: 122%;
     width: 80px;
  
   }
