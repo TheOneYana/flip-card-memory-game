@@ -1,6 +1,6 @@
 :root {
   --background_taupe: rgb(186, 161, 132);
-  background-color: rgb(186, 161, 132);
+  background-color: rgb(197, 148, 138);
   --beige_warm: rgb(197, 148, 138);
   --dark-beige: rgb(139, 106, 75);
   --font: rgb(36, 20, 1);
@@ -26,7 +26,6 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 5px solid rgb(111, 65, 41);
 
   
 }
@@ -83,6 +82,7 @@ h3{
   width: 250px;
   height: 39px;
   z-index: 5;
+  background-color: none;
 }
 .back:link {
   color: black;
