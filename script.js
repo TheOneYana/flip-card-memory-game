@@ -79,7 +79,7 @@ playButton.addEventListener('click', function letsPlay(){
     setTimeout(() => {
     for (let i = 0; i<iterator2.length; i++) {
         iterator2[i].src = './cardSkin.jpg';
-    }}, 2000)
+    }}, 4000)
     playButton.style.display = 'none';
     openTwoCards();
 });
