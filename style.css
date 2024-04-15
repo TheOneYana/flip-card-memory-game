@@ -47,8 +47,8 @@ body, html {
   justify-content: center;
 }
 img {
-  width: 320px;
-  height: 232px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -57,15 +57,15 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 320px;
-  height: 232px;
+  width: 290px;
+  height: 170px;
   box-shadow: 5px 5px 5px rgb(77, 51, 31); 
   }
 
-.is-flipped{
+/* .is-flipped{
   width: 350px;
   height: auto;
-  }
+  } */
 
 h3{
   color: aliceblue;
@@ -214,9 +214,9 @@ color: var(--font);
     margin-left: 10px;
     }
   
-  .is-flipped{
+  /* .is-flipped{
     width: 160px;
-    }
+    } */
   
   h3{
     font-size: 1.5em;
@@ -232,7 +232,7 @@ color: var(--font);
     }
   
   .back {
-    top: 188%;
+    top: 150%;
     width: 80px;
  
   }
@@ -294,31 +294,26 @@ color: var(--font);
       display: flex;
       justify-content: center;
     }
-    .main {
+      .main {
       padding:0px;
       width: auto;
       height: 100%;
       grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: repeat(5,1fr);
+      grid-template-rows: repeat(4);
       gap: 2px 2px;
       margin: 20px 70px 0 70px;
 
 
     }
-    img {
-      width: 100%;
-      height: 100%;
-    }
-    
+
     .grid-item {
-      width: 150px;
+      width: 185px;
       height: 152px;
-    
       }
     
-    .is-flipped{
+    /* .is-flipped{
       width: 150px;
-      }
+      } */
     
     h3{
       font-size: 1.5em;
@@ -330,6 +325,7 @@ color: var(--font);
         translate:39%;
         width: 200px;
         cursor: pointer;
+        margin-top: 50px;
       }
     
     .back {
@@ -345,32 +341,36 @@ color: var(--font);
       display: flex;
       justify-content: center;
     }
-    .main {
+      .main {
       padding:0px;
-      width: auto;
+      width:90%;
       height: 100%;
       grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: repeat(5,1fr);
+      grid-template-rows: repeat(4);
       gap: 2px 2px;
       margin: 20px 70px 0 70px;
 
 
     }
+
+    .grid-item {
+      width: 100%;
+      height: 100%;
+    
+      }
+  
     img {
       width: 100%;
       height: 100%;
     }
     
     .grid-item {
-      width: 210px;
-      height: 200px;
+      width: 250px;
+      height: 170px;
     
       }
     
-    .is-flipped{
-      width: 150px;
-      }
-    
+   
     h3{
       font-size: 1.5em;
       translate:150%;
